@@ -31,12 +31,12 @@
 	    <version>9.4-1200-jdbc41</version>
 	</dependency>
 	
-	<!--https://learn.microsoft.com/en-us/sql/connect/jdbc/download-microsoft-jdbc-driver-for-sql-server?view=sql-server-ver16-->
 	<dependency>
-    <groupId>com.microsoft.sqlserver</groupId>
-    <artifactId>mssql-jdbc</artifactId>
-    <version>12.6.3.jre11</version>
+		<groupId>com.microsoft.sqlserver</groupId>
+		<artifactId>sqljdbc4</artifactId>
+		<version>4.2</version>
 	</dependency>
-    
+
+	    
   </dependencies>
 </project>
