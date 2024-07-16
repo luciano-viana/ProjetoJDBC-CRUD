@@ -78,7 +78,7 @@ public class PassosCRUD {
     }
 
 	
--------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------
 4º - Criar uma classe "TesteBancojdbc" dentro da pasta src/teste/java para teste da conexão do banco com o eclipse e faezer o teste
 	
 	package ProjetoJDBC_CRUD.ProjetoJDBC_CRUD;
@@ -95,7 +95,25 @@ public class PassosCRUD {
 	}
 	}
 
+------------------------------------------------------------------------------------------------------------------------------------
+4º - Criar tabela e inserindo dados por insert no banco de dados postgresql
+
+	create table userposjava
+	id bigint not null,
+	nome character varying(255),
+	email character varying(255),
+	constraint user_pk primary key (id)
 	
+	insert int userposjava(id, nome, email) values (1, 'Luciano', 'lucianoviana.dev@gmail.com');
+
+------------------------------------------------------------------------------------------------------------------------------------
+5º - Criar Package model e classe Userposjava
+	
+------------------------------------------------------------------------------------------------------------------------------------
+6º - Criar Package dao e criar classe UserPosDAO
+
+------------------------------------------------------------------------------------------------------------------------------------
+7º - Criar Métodos, Insert, consulta, update e delete
     
     
 	 
